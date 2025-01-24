@@ -11,7 +11,7 @@ public class LaunchBrowser {
 		//Open Browser - Chrome
 		
 		WebDriver driver = new ChromeDriver();
-		driver.get("https:\\www.naveenautomationlabs.com"); // test
+		driver.get("https:\\www.naveenautomationlabs.com");
 		String title = driver.getTitle();
 		
 		System.out.println(title);
